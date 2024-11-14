@@ -1,0 +1,87 @@
+body{
+    background-color: #0d1a27;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    width: 320px;
+    background-color: #142b40;
+    border-radius: 15px;
+    overflow: hidden;
+    color:  #ffffff;
+    font-size: 16px;
+    transition: all .3s;
+    border: 3px solid #66D0FF;
+    box-shadow: 0 0 10px;
+}
+.card:hover {
+    width: 200px;
+    height: 264px;
+    transform: scale(0.9);
+    padding: 20px;
+    border: 5px solid;
+    background: linear-gradient(-45deg, #4e627a 0%, #38b7e9 100% );
+}
+.card img{
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+.card-content{
+    padding: 20px;
+}
+.titulo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.desc{
+    color: #b0c0d3;
+    margin-bottom: 20px; 
+}
+.tempo-preco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #00fff7;
+    font-weight: bold;
+}
+.tempo-preco .preco{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.tempo-preco .tempo{
+    color: #b0c0d3;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.tempo-preco svg{
+    margin-right: 5px;
+}
+.criador{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #b0c0d3;
+    border-top: 1px solid #1f354b;
+    padding-top: 10px;
+}
+.criador img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
