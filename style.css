@@ -66,6 +66,7 @@ body{
     display: flex;
     align-items: center;
     font-size: 18px;
+    
 }
 .status-localizacao .localizacao{
     color: #008cff;
