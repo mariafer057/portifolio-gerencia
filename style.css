@@ -51,7 +51,7 @@ body{
     margin-bottom: 10px;
 }
 .desc{
-    color: #b0c0d3;
+    color: #8392a4;
     margin-bottom: 20px; 
 }
 .status-localizacao{
@@ -59,7 +59,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    color: #00fff7;
+    color: #008cff;
     font-weight: bold;
 }
 .status-localizacao .status{
@@ -67,13 +67,13 @@ body{
     align-items: center;
     font-size: 18px;
 }
-.localizacao-preco .localizacao{
-    color: #b0c0d3;
+.status-localizacao .localizacao{
+    color: #008cff;
     display: flex;
     align-items: center;
     font-size: 16px;
 }
-.tempo-preco svg{
+.status-localizacao svg{
     margin-right: 5px;
 }
 .criador{
