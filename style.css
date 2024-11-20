@@ -2,11 +2,12 @@ body {
     background-color: #0d1a27;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 40px;
+    padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
+    padding-top: 100px;
 }
 
 header {
@@ -22,6 +23,7 @@ header {
     z-index: 1000;
     padding: 0 20px;
     box-sizing: border-box;
+    
 }
 
 .navbar {
@@ -37,7 +39,7 @@ header {
 }
 
 .logo img {
-    height: 70px; /* Aumentando o tamanho da logo */
+    height: 70px;
     margin-right: 10px;
 }
 
@@ -78,7 +80,7 @@ header {
 }
 
 .container {
-    margin-top: 90px;
+    margin-top: 500px; /* Aumenta o espaçamento entre o header e o conteúdo */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     row-gap: 80px;
@@ -86,6 +88,8 @@ header {
     padding: 20px;
     max-width: 1200px;
     width: 100%;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    flex: 1;
 }
 
 .card {
@@ -176,6 +180,18 @@ a {
     color: #ffffff;
 }
 
+footer {
+    background-color: #260c83;
+    color: #fff; 
+    text-align: center; 
+    padding: 15px 0; 
+    width: 100%; 
+    margin-top: auto;
+} 
+.footer-content { 
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     header {
         height: auto;
@@ -206,12 +222,13 @@ a {
         row-gap: 40px;
         column-gap: 20px;
         padding: 10px;
+        margin-top: 300px;
     }
 }
 
 @media (max-width: 480px) {
     .logo img {
-        height: 50px; /* Ajuste do tamanho da logo para telas menores */
+        height: 50px;
     }
 
     .search-bar input {
@@ -229,6 +246,3 @@ a {
         padding: 5px;
     }
 }
-footer {     background-color: #260c83;
-    color: #fff;; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; } 
-.footer-content { margin: 0;}
