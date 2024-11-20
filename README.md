@@ -67,8 +67,10 @@ https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
 
 https://app.leonardo.ai/
 
-
+https://www.bing.com/ck/a?!&&p=a6dad9d6fbdd6de3249b1bbe0d03aa63115ac1abbb6bfc6d4be4d30e0a1815b6JmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=0298a2e2-c87f-6489-1f78-b3abcc7f623a&psq=ui+universe&u=a1aHR0cHM6Ly91aXZlcnNlLmlvLw&ntb=1
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/mariafer057/repo-name.git
+   git clone https://github.com/mariafer057/portifolio-gerencia.git
+
+ou no navegador colocar este link: https://mariafer057.github.io/portifolio-gerencia/
